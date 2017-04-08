@@ -1,0 +1,26 @@
+{
+  "name": "next-js-quick-start",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.15.3",
+    "bulma": "^0.2.3",
+    "express": "^4.14.0",
+    "font-awesome": "^4.7.0",
+    "load-script": "^1.0.0",
+    "next": "^2.0.0",
+    "node-fetch": "^1.6.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "lint": "components/**/*.js",
+    "start": "NODE_ENV=production node server.js",
+    "sass": "sass ./sass/app.scss ./static/main.css --style compressed"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.2",
+    "eslint-config-google": "^0.7.1"
+  }
+}
